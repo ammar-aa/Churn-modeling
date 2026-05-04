@@ -6,7 +6,7 @@ st.set_page_config(page_title="Churn Prediction App", layout="centered")
 
 st.title("Customer Churn Prediction")
 
-model = joblib.load("model.pkl")
+model = joblib.load("churn_model/model.pkl")
 
 st.markdown("### Customer Information:")
 
